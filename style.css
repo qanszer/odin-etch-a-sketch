@@ -10,6 +10,7 @@ html {
 * {
 	margin: 0px;
 	padding: 0px;
+    font-family: 'Ubuntu';
 }
 
 a {
@@ -28,6 +29,10 @@ body {
 	display: flex;
 	flex-direction: column;
 
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+
     background-color: #2b313c;
 }
 
@@ -38,4 +43,21 @@ body {
 ::selection {
 	/* background-color: ;
 	color: ; */
+}
+
+
+.canvas {
+    display: flex;
+    flex-wrap: wrap;
+	gap: 5px;
+	padding: 10px;
+
+	/* Calculation based on square size: (10+10)+((40*16)+(5*15)) */
+	width: 735px;
+}
+
+.square {
+	height: 40px;
+	width: 40px;
+	background-color: #eceff4;
 }
