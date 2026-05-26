@@ -11,4 +11,4 @@ This is one of the projects from The Odin Project's Foundation Course. This is a
 - usage of target events to change specific child elements
 
 ## Live demo
-[Try it yourself by clicking this text.]()
+[Try it yourself by clicking this text.](https://qanszer.github.io/odin-etch-a-sketch/)
