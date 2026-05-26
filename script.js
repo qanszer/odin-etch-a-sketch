@@ -52,7 +52,7 @@ function generateNewCanvas(newCanvas) {
 
 canvasBtn.addEventListener('click', (event) => {
     do {
-        newCanvas = parseInt(prompt("Enter new canvas size less than 100"));
+        newCanvas = parseInt(prompt("Enter new canvas size less than 50"));
         if (newCanvas === NaN) break;
     }
     while (newCanvas > 50 || newCanvas < 1)
