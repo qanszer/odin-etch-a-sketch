@@ -10,7 +10,6 @@ html {
 * {
 	margin: 0px;
 	padding: 0px;
-    font-family: 'Ubuntu';
 }
 
 a {
@@ -38,11 +37,6 @@ body {
 
 [id] { 
 	scroll-margin-top: 150px; 
-}
-
-::selection {
-	/* background-color: ;
-	color: ; */
 }
 
 
