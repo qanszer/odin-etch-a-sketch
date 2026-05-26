@@ -33,7 +33,7 @@ body {
 	justify-content: center;
 	height: 100vh;
 
-    background-color: #2b313c;
+    background-color: #343b48;
 }
 
 [id] { 
@@ -54,10 +54,37 @@ body {
 
 	/* Calculation based on square size: (10+10)+((40*16)+(5*15)) */
 	width: 735px;
+	background-color: #343b48 !important;
 }
 
 .square {
 	height: 40px;
 	width: 40px;
 	background-color: #eceff4;
+}
+
+
+.toolbar {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	padding: 1rem 0.5rem;
+	background-color: #eceff4;
+	border-top-right-radius: 0.7rem;
+	border-bottom-right-radius: 0.7rem;
+
+	position: fixed;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+
+}
+
+img {
+	height: 40px;
+	width: 40px;
+}
+
+img:hover {
+	cursor: pointer;
 }

@@ -8,3 +8,9 @@ for (let i = 1; i <= numberOfSquares; i++) {
     square.classList.add('square');
     canvas.appendChild(square);
 }
+
+canvas.addEventListener('mouseover', (event) => {
+    let target = event.target;
+    console.log(target);
+    target.style.backgroundColor = "#232831";
+});
